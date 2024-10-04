@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61036796115370783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3815396061145132601}
+  - component: {fileID: 8331973608019201802}
+  - component: {fileID: 7445788009165052762}
+  - component: {fileID: -7409311421821395468}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3815396061145132601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61036796115370783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8331973608019201802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61036796115370783}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4349219970c5a874cadb5784d903e505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  twoClubs: {fileID: 100004, guid: 61a95709e8755f74ba26eb40ffa4c532, type: 3}
+  threeClubs: {fileID: 100004, guid: 8e9ed7717f4aad6439d71bdb97ed08e3, type: 3}
+  fourClubs: {fileID: 100004, guid: cbe2fb84101f91f40a3f4ebc2140dd11, type: 3}
+  fiveClubs: {fileID: 100004, guid: 5ba8d0ea5d91cf943aebbdd0208fa702, type: 3}
+  sixClubs: {fileID: 100004, guid: 71ef531c1c771ac4ca6e88731fa6dd01, type: 3}
+  sevenClubs: {fileID: 100004, guid: a42b16adedd9247419e836524af0c8b1, type: 3}
+  aceClubs: {fileID: 100004, guid: 8630670233d16014380dfb4e3771966d, type: 3}
+  jackClubs: {fileID: 100004, guid: 088e94a20b19e5b49b7eaebdf5e7e39f, type: 3}
+  queenClubs: {fileID: 100004, guid: b8efa8a7cee73ac47a31ce82f4ce5fad, type: 3}
+  kingClubs: {fileID: 100004, guid: 93f66ca655766b54d96f3049aca655e1, type: 3}
+  twoDiamonds: {fileID: 100004, guid: da5b4d521385a0348830a3b2ba921d1c, type: 3}
+  threeDiamonds: {fileID: 100004, guid: ed684b4eccc028246a5b6d8a3ca54a70, type: 3}
+  fourDiamonds: {fileID: 100004, guid: 8ff93a03b368f234795bb36a564428e0, type: 3}
+  fiveDiamonds: {fileID: 100004, guid: f2bfc22fd05d49446a022b718739e622, type: 3}
+  sixDiamonds: {fileID: 100004, guid: 5cab0dbf6dfb6044bb596d4074161ad1, type: 3}
+  sevenDiamonds: {fileID: 100004, guid: 35e2d25bfad595d469aa54933a2bee4f, type: 3}
+  aceDiamonds: {fileID: 100004, guid: 7327c296c1bf95b4ebfa0e55738c2a28, type: 3}
+  jackDiamonds: {fileID: 100002, guid: 451b8249476a82648b80b50d7a7801e2, type: 3}
+  queenDiamonds: {fileID: 100004, guid: a6d88fd912b38424b9ef665d24653e15, type: 3}
+  kingDiamonds: {fileID: 100004, guid: 34d1ed992f8741e4f818c2354f92d0e7, type: 3}
+  twoSpades: {fileID: 100004, guid: 6c02f11f65a5fd5479b95eeabd973b4a, type: 3}
+  threeSpades: {fileID: 100004, guid: b7c9320fc9774704798640139bb74dfc, type: 3}
+  fourSpades: {fileID: 100004, guid: 8c343dff926a49647bd0222d37e453de, type: 3}
+  fiveSpades: {fileID: 100004, guid: af59fcda942d03c4bbfcb2d31b77b753, type: 3}
+  sixSpades: {fileID: 100004, guid: 4c9eccdf9ddd39c4fae79bfd4e96d3d8, type: 3}
+  sevenSpades: {fileID: 100004, guid: 187896b68936d994690d18542237a533, type: 3}
+  aceSpades: {fileID: 100004, guid: 08ce359ceb05aa243a451fe019154892, type: 3}
+  jackSpades: {fileID: 100004, guid: ba0f480a9f562ea47ac0bbb614453b8c, type: 3}
+  queenSpades: {fileID: 100004, guid: 8dc2de0510bcd4743b6e2c7ce328cc19, type: 3}
+  kingSpades: {fileID: 100004, guid: cda83486bb09a1e48a5338130bea93b1, type: 3}
+  twoHearts: {fileID: 100004, guid: f436fe62ef8a9624da3219438705c717, type: 3}
+  threeHearts: {fileID: 100004, guid: 142a5319ce44cd94c9e013b236475acf, type: 3}
+  fourHearts: {fileID: 100004, guid: 884e0648998540c449e12eeedb4705a8, type: 3}
+  fiveHearts: {fileID: 100004, guid: d5c975aab2b9c584d8425c3fef8d1a46, type: 3}
+  sixHearts: {fileID: 100004, guid: 2bbabc110b6277f4b832bfa2d8dcb602, type: 3}
+  sevenHearts: {fileID: 100004, guid: 4180b977aafe07b4dbff130c551fe906, type: 3}
+  aceHearts: {fileID: 100004, guid: 7e0798bcf7f80d2478f50ee0d5499ac9, type: 3}
+  jackHearts: {fileID: 100004, guid: 7af8bce822c918440b113c6499a7fa14, type: 3}
+  queenHearts: {fileID: 100004, guid: d90667bd144990145b72d93d7e218203, type: 3}
+  kingHearts: {fileID: 100004, guid: 66cfd6347700f40478ba6cc72e625bcb, type: 3}
+  turnUI: {fileID: 101440539381460955, guid: 23dea60161fb775449119b0590ebb052, type: 3}
+  playerUI: {fileID: 0}
+  extraUI: {fileID: 0}
+--- !u!114 &7445788009165052762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61036796115370783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: -7409311421821395468}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &-7409311421821395468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61036796115370783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
